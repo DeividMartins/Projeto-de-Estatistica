@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Easy Statistics</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <nav class="navegador" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Easy Statistics</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="templates/login.html">Login</a></li>
+        <li><a href="templates/cadastrar.html">Criar uma conta</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br>
+      
+      <div class="row center">
+        <img src="imagem/logo.png">
+      </div>
+      
+      <h1 class="header center light-blue-text text-lighten-1">Easy Statistics</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Facilidade, Praticidade e Simplicidade</h5>
+      </div>
+
+      <!-- Vamos Começar -->
+      <div class="row center">
+        <a class='dropdown-trigger btn-large light-blue lighten-1' href='#' data-target='dropdown1'>Vamos Começar!</a>
+
+        <!-- Opções de redirecionamento -->
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="templates/inserir-dados.html">Estatística Descritiva</a></li>
+          <li><a href="templates/inserir-dados-correlacao.html">Correlação</a></li>
+          <li><a href="templates/probabilidade.html">Probabilidade</a></li>
+          <li class="divider" tabindex="-1"></li>
+        </ul>
+      </div>
+      <br><br>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Sessão de ícones   -->
+      <div class="row">
+
+        <!-- Agilize -->
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Agilize</h5>
+            <p class="light">Utilizando o Easy Statics você é capaz de realizar análises de dados estatísticos
+              rapidamente e sem contratempos.</p>
+          </div>
+        </div>
+
+        <!-- Usabilidade -->
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Usabilidade</h5>
+            <p class="light">Nosso principal objetivo é proporcionar uma experiência agradável, simples e produtiva.</p>
+          </div>
+        </div>
+
+        <!-- Fácil de usar -->
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Fácil de usar</h5>
+            <p class="light">Se você é leigo e não está familiarizado em utilizar sistemas web, não se preocupe! Easy
+              Statics é um sistema web fácil e prático para que você possa utilizar nossos recursos sem dificuldades.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="page-footer green accent-3">
+    <div class="container">
+      <div class="row">
+
+        <!-- Sobre -->
+        <div class="col l6 s12">
+          <h5 class="white-text">Sobre</h5>
+          <p class="grey-text text-lighten-4">Nós somos uma equipe de estudantes universitários inovando a maneira de
+            computar dados estatísticos, visando praticidade e comodidade ao usuário.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Coprodução Equipe de Estatística
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts-->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  <script>
+    // Inicialize a função do botão Dropdown(Vamos Começar!)
+    $('.dropdown-trigger').dropdown();
+  </script>
+
+</body>
+
+</html>
